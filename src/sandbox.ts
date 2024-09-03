@@ -9,7 +9,7 @@ export const createAndAppendSandboxApp = () => {
   return sandbox;
 };
 
-export const initializeSandboxApp = async (sandbox) => {
+export const initializeSandboxApp = async (sandbox: HTMLElement) => {
   try {
       if (sandbox) {
         const {configurationSections, plugins} = await getConfigurationsAndPlugins();
@@ -21,5 +21,5 @@ export const initializeSandboxApp = async (sandbox) => {
   }
 };
 
-const sandbox = createAndAppendSandboxApp();
+const sandbox = createAndAppendSandboxApp() as HTMLElement;
 initializeSandboxApp(sandbox);
