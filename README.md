@@ -1,4 +1,4 @@
-# hes-cconf-plugin-iframe-demo
+# hes-cconf-plugin-demo
 
 ### Install
 This project use `pnpm` package manager. Make sure you have it installed before continue process.
