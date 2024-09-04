@@ -6,7 +6,7 @@ export const initialize = (api: HesCConfApi) => {
   api.regionManager.registerMainView({
     id: api.pluginInfo.pluginId,
     factory: () =>  Promise.resolve(new MyElement()) ,
-  }, "Lit native plugin");
+  }, "native plugin");
   
   return Promise.resolve();
 };

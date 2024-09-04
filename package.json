@@ -9,8 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@uxland/hes-cconf-shell": "^0.6.1",
-    "lit": "^3.1.4"
+    "@uxland/hes-cconf-shell": "^0.6.1"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
