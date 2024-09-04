@@ -20,11 +20,15 @@ export class MyIframeElement extends LitElement {
   static styles = css`
     :host {
       display: flex;
+      flex:1;
       max-width: 1280px;
       margin: 0 auto;
       margin: 24px;
       text-align: center;
       box-sizing: border-box;
+    }
+    iframe{
+      width: 100%;
     }
   `
 }

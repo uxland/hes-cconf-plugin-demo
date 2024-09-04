@@ -24,6 +24,7 @@ export class MyElement extends LitElement {
   static styles = css`
     :host {
       display: flex;
+      flex:1;
       max-width: 1280px;
       margin: 0 auto;
       margin: 24px;
@@ -32,6 +33,7 @@ export class MyElement extends LitElement {
     }
 
     .card{
+      width: 100%;
       padding: 2rem;
       border-radius: 10px;
       background-color: #f5f6fa;
