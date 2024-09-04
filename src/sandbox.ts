@@ -31,9 +31,9 @@ export const fetchConfigurations = () => {
             tags: ["configurations"],
             plugins: [
               {
-                    pluginId: "patient-notifications-iframe",
+                    pluginId: "patient-notifications",
                     pluginUrl: "./plugin",
-                    name: "Notificacions del pacient iframe",
+                    name: "Notificacions del pacient",
                     category: ["user", "admin"]
               }
             ],
